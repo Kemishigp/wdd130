@@ -30,13 +30,14 @@ aside {
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
     padding: 1em;
-    background-color: #eee;
+    background-color: #d71616;
     color: #333;
     text-align: center;
   }
 aside img {
     width: 200px;
     height: auto;
+    
   }
   
 main img {
