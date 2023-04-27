@@ -29,8 +29,8 @@ main {
 aside {
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
-    padding: 10em;
-    background-color: #d71616;
+    padding: 5em;
+    background-color: #abd0da;
     color: #333;
     text-align: center;
   }
