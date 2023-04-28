@@ -1,10 +1,10 @@
 .box-model {
 	width: 400px;
 	margin: 10px;
-	border: 1px solid rgba(0,0,0,.1);
+	border: 1px solid rgba(16, 13, 13, 0.1);
 	padding: 15px;
 	background-color: #247;
-	color: #fff;
+	color: #a9a43e;
 }
 
 .box-model img {
@@ -12,7 +12,7 @@
 	margin: 0 0 10px 15px;
 	border: 1px solid #000;
 	padding: 3px;
-	background-color: #bbb;
+	background-color: #ea7c7c;
 	width: 100px;
 	height: auto;
 	
