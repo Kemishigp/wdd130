@@ -29,7 +29,7 @@ main {
 aside {
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
-    padding: 5em;
+    padding: 10em;
     background-color: #cce5ec;
     color: #333;
     text-align: center;
@@ -37,7 +37,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-    
   }
   
 main img {
