@@ -27,6 +27,7 @@ main {
   max-width: 840px;
 }
 aside {
+    width: 500px;
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
     padding: 10em;
