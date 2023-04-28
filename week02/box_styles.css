@@ -21,3 +21,7 @@
 blockquote {
 	margin: 0;
 }
+main img {
+    width: 150px;
+    height: auto;
+  }
