@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
 :root {
-  --primary-color: #XXXXXX;
-  --secondary-color: #XXXXXX;
-  --accent1-color: #XXXXXX;
-  --accent2-color: #XXXXXX;
+  --primary-color: #fdd4d4 ;
+  --secondary-color: #d4fdd8;
+  --accent1-color: #d4e0fd;
+  --accent2-color: #4c2424;
 
   --heading-font: '______', serif;
   --paragraph-font: '______', serif;
 
-  --nav-background-color: #XXXXXX;
-  --nav-link-color: #XXXXXX;
-  --nav-hover-link-color: #XXXXXX;
-  --nav-hover-background-color: #XXXXXX;
+  --nav-background-color: #fc0606;
+  --nav-link-color: #2b4af4;
+  --nav-hover-link-color: #fdd4d4;
+  --nav-hover-background-color: #fdd4d4;
 }    
 body {
   f______: var(--paragraph-font);
   m______: ______;
-  p______: ______;
+  padding: 20px ;
 }
 
 h1, h2, h3, h4, h5, h6 {
