@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
+/* <a href="https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c" target="_blank">https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c</a> */
 :root {
-  --primary-color: #fdd4d4 ;
-  --secondary-color: #d4fdd8;
-  --accent1-color: #d4e0fd;
-  --accent2-color: #4c2424;
+
+    /* https://coolors.co/f7b32b-2660a4-ffffff-5ca4a9-a40e4c */
+  --primary-color: #f7B32B ;
+  --secondary-color: #2660A4;
+  --accent1-color: #FFFFFF;
+  --accent2-color: #5CA4A9;
 
   --heading-font: '______', serif;
   --paragraph-font: '______', serif;
