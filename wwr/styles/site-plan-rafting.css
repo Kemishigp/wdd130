@@ -13,9 +13,9 @@
   --paragraph-font: '______', serif;
 
   --nav-background-color: #A40E4C;
-  --nav-link-color: #2b4af4;
-  --nav-hover-link-color: #fdd4d4;
-  --nav-hover-background-color: #fdd4d4;
+  --nav-link-color: #FFFFFF;
+  --nav-hover-link-color: #ad567a;
+  --nav-hover-background-color: #bcbcbc;
 }    
 body {
   f______: var(--paragraph-font);
