@@ -8,11 +8,11 @@
     /* https://coolors.co/f7b32b-2660a4-ffffff-5ca4a9-a40e4c */
   --primary-color: #f7B32B ;
   --secondary-color: #2660A4;
-  --accent1-color: #FFFFFF;
+  --accent1-color: #2660a4;
   --accent2-color: #5CA4A9;
 
-  --heading-font: '______', serif;
-  --paragraph-font: '______', serif;
+  --heading-font: Lato, serif;
+  --paragraph-font: Lato , serif;
 
   --nav-background-color: #5CA4A9;
   --nav-link-color: #FFFFFF;
@@ -20,13 +20,13 @@
   --nav-hover-background-color: #dedede; 
 }    
 body {
-  font-family: Lato;
-  m______: ______;
+  font-family: var(--paragraph-font);
+  max-width: 960px ;
   padding: 20px ;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: var(--heading-font);
   color: var(--primary-color);
 }
 
@@ -37,7 +37,6 @@ header {
 
 
 p {
-    
   padding: 25px;
 }
 
