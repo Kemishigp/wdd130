@@ -20,7 +20,7 @@
   --nav-hover-background-color: #dedede; 
 }    
 body {
-  font-family: var(--paragraph-font);
+  font-family: Lato;
   m______: ______;
   padding: 20px ;
 }
@@ -37,6 +37,7 @@ header {
 
 
 p {
+    
   padding: 25px;
 }
 
