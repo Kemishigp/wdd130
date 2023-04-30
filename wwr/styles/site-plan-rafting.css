@@ -1,5 +1,7 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 /* <a href="https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c" target="_blank">https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c</a> */
 :root {
 
@@ -18,7 +20,7 @@
   --nav-hover-background-color: #dedede; 
 }    
 body {
-  f______: var(--paragraph-font);
+  font-family: var(--paragraph-font);
   m______: ______;
   padding: 20px ;
 }
