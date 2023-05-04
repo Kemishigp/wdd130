@@ -61,10 +61,10 @@ footer {
   border: 1px solid rgba(96, 93, 255, 0.651);
   padding: 1rem;
   background-color: #ddd;
-  color: #c5c542;
+  color: #3fb7eb;
 }
 
-aside {
-  width: 20em;
+/* aside {
+  width: 0rem;
   text-align: center;
-}
+} */
