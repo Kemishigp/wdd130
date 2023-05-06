@@ -78,8 +78,6 @@ nav a:hover {
   box-sizing: border-box;
 }
 
-
-
 .hero {
     position: relative;
   margin: 1rem;
@@ -98,17 +96,24 @@ nav a:hover {
   height: auto;
 }
 .hero h1{
-    float: center;
+    float: right;
+    /* float: center; */
     position: absolute;
     font-family: var(--heading-font);
     color: var(--primary-color);
-    text-align: right;
-
   }
-.hero article{
+
+.hero article p {
     position: absolute;
-    top: 500px;
-    width: 0%;
+    bottom: 50%;
+    width: 50%;
+    float: left;
+    color:#FFFFFF;
+}
+.hero article img{
+    position: absolute;
+    bottom: 50%;
     float: right;
+    width: 100px;
 }
 
