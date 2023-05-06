@@ -1,10 +1,8 @@
-
-
-@import "custom.css";
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
 
 /* <a href="https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c" target="_blank">https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c</a> */
 :root {
+    font-family: 'Lato', sans-serif;
 
     /* https://coolors.co/f7b32b-2660a4-ffffff-5ca4a9-a40e4c */
   --primary-color: #f7B32B ;
