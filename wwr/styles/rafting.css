@@ -29,14 +29,7 @@ h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
-h1{
-    position: absolute;
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-  }
-article{
-    position: absolute;
-}
+
 footer{
     color: var( --primary-color)
 }
@@ -84,10 +77,13 @@ nav a:hover {
   padding: 0;
   box-sizing: border-box;
 }
+
+
+
 .hero {
     position: relative;
   margin: 1rem;
-  width: 500px;
+  width: 900px;
   /* #f7B32B */
   border: 1px solid rgba(247, 179, 43, 0.651);
   padding: 1rem;
@@ -95,10 +91,24 @@ nav a:hover {
   color: #3496bf;
 }
 
+
 .hero img {
   display: block;
   width: 100%;
   height: auto;
 }
-/* Class Selectors */
+.hero h1{
+    float: center;
+    position: absolute;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: right;
+
+  }
+.hero article{
+    height: 50%;
+    position: absolute;
+    width: 0%;
+    float: right;
+}
 
