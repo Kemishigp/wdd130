@@ -25,11 +25,18 @@ body {
   padding: 20px ;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
-
+h1{
+    position: absolute;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+article{
+    position: absolute;
+}
 footer{
     color: var( --primary-color)
 }
@@ -45,7 +52,9 @@ p {
 }
 
 
-
+footer img{
+    width: 100px;
+}
 
 nav {
   background-color: var(--nav-background-color);
@@ -69,3 +78,27 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+/* Class Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+    position: relative;
+  margin: 1rem;
+  width: 500px;
+  /* #f7B32B */
+  border: 1px solid rgba(247, 179, 43, 0.651);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #3496bf;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Class Selectors */
+
