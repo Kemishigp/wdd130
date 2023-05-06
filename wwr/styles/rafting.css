@@ -106,8 +106,8 @@ nav a:hover {
 
   }
 .hero article{
-    height: 50%;
     position: absolute;
+    /* top: 500px; */
     width: 0%;
     float: right;
 }
