@@ -49,10 +49,6 @@ p {
   padding: 20px;
 }
 
-.grid {
-  display: grid;
-  align-items: center;
-}
 
 main {
   max-width: 500px;
@@ -65,35 +61,40 @@ aside {
   text-align: center;
   grid-column: 1/2;
   grid-row: 1/2;
-  }
+}
 aside img {
   position:relative;
   top: 10px;
-    width: 200px;
-    height: auto;
-  }
+  width: 200px;
+  height: auto;
+}
 
 
 aside h2 {
-    position: absolute;
-    top: 0px;
-    left: 127px;
-  }
-  
+  position: absolute;
+  top: 0px;
+  left: 127px;
+}
+
 main img {
-    width: 150px;
-    height: auto;
-    float: right;
-  }
+  width: 150px;
+  height: auto;
+  float: right;
+}
 
 
 header, .grid, footer {
-    max-width: 840px;
-    margin: 0 auto;
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
-  }
+  max-width: 840px;
+  margin: 0 auto;
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
 
 /* Class Selectors */
 * {
