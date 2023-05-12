@@ -52,6 +52,7 @@ nav{
   grid-row-start: 2;
   grid-column-start: 2;
   grid-column-end: 4;
+  width: 10px;
   background-color: var(--accent1-color);
 }
 
@@ -71,14 +72,15 @@ p {
 }
 
 
-footer img{
-    width: 100px;
+footer nav img{
+    width: 5px;
 }
 
 nav {
   background-color: var(--accent1-color);
   font-size: 1.2rem;
   display: flex;
+  align-items: right;
 }
 
 nav a {
@@ -113,7 +115,6 @@ nav a:hover {
   background-color: #ddd;
   color: #3496bf;
 }
-
 
 .hero img {
   display: block;
