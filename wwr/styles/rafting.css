@@ -147,23 +147,13 @@ footer{
 }
 
 footer img{
-  padding: 1rem;
+  margin: 1rem;
+  /* padding: 2px; */
   width: 60px;
 }
 
 footer nav{
+  /* padding: 2px; */
   float:right;
   background-color: var(--secondary-color);
 }
-
-
-
-.sociallinks {
-  position: relative;
-  float: center;
-  margin: 1rem;
-  width: 100%;
-}
-
-.sociallinks nav{
-  
