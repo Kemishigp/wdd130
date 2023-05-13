@@ -62,7 +62,6 @@ h2, h3, h4, h5, h6 {
 
 header {
   display: grid;
-  align-items: left;
   grid-template-columns: 33% 34% 23% 10% ;
   grid-template-rows: 40% 20% 40%;
   background-color: var(--accent2-color);
@@ -131,7 +130,7 @@ nav a:hover {
 
 .hero {
   position: relative;
-  float: center;
+  /* float: center; */
   margin: 1rem;
   width: 900px;
   border: 1px solid rgba(247, 179, 43, 0.651);
