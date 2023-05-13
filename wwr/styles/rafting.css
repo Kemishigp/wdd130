@@ -24,13 +24,13 @@ body {
   max-width: 9600px ;
   padding: 20px ;
 }
-.images-flex {
+.flex {
   /* grid-template-columns: 20% 20% 20% 20% 20%; */
   display: flex;
 
 }
 
-.images-flex figure {
+.flex figure {
   /* grid-column: 5; */
   /* flex: 1 0%; */
   /* border: thin var(--nav-link-color) solid; */
@@ -39,7 +39,7 @@ body {
   /* max-width: 20px; */
   margin: auto;
 }
-.images-flex figure img {
+.flex figure img {
   max-width: 220px;
 }
 
@@ -53,6 +53,7 @@ figcaption {
 }
 
 h2, h3, h4, h5, h6 {
+  float:center;
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
