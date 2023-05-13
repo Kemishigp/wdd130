@@ -18,6 +18,7 @@
   --nav-hover-link-color: #5CA4A9;
   --nav-hover-background-color: #dedede; 
 }    
+
 body {
   font-family: var(--paragraph-font);
   max-width: 9600px ;
@@ -29,14 +30,12 @@ h2, h3, h4, h5, h6 {
   color: var(--primary-color);
 }
 
-footer{
-    color: var( --primary-color)
-}
+
 
 header {
   display: grid;
   align-items: left;
-  grid-template-columns: 33% 34% 33%;
+  grid-template-columns: 33% 34% 23% 10% ;
   grid-template-rows: 40% 20% 40%;
   background-color: var(--accent2-color);
 }
@@ -52,44 +51,40 @@ nav{
   grid-row-start: 2;
   grid-column-start: 2;
   grid-column-end: 4;
-  width: 10px;
   background-color: var(--accent1-color);
 }
 
-
-/* header,footer {
-  max-width: 9000px;
-  margin: 0 auto;
-  margin-top: 1em;
-  border-top: 1px solid #000;
-  text-align: center;
-  padding: 20px;
-  grid-column-start: 1;
-} */
 
 p {
   padding: 25px;
 }
 
-
-footer nav img{
-    width: 5px;
-}
-
+/* CLAAF */
 nav {
   background-color: var(--accent1-color);
   font-size: 1.2rem;
   display: flex;
-  align-items: right;
 }
 
-nav a {
-  display: block;
+.navigation {
+  text-align: left;
+	display: flex;
+	list-style: none;
+  /* background-color: #f7B32B; */
+}
+
+.navigation a{
+  flex: 1 1 100%;
+  float: right;
+  display: flex;
   color: var(--nav-link-color);
-  text-decoration: none;
   padding: 1rem;
+  text-decoration: none;
+  right: 100%;
+
 }
 
+/* CLAAF */
 
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -108,10 +103,11 @@ nav a:hover {
 
 .hero {
   position: relative;
+  float: center;
   margin: 1rem;
   width: 900px;
   border: 1px solid rgba(247, 179, 43, 0.651);
-  padding: 1rem;
+  /* padding: 2px; */
   background-color: #ddd;
   color: #3496bf;
 }
@@ -122,7 +118,7 @@ nav a:hover {
   height: auto;
 }
 .hero h1{
-    float: center;
+    right: 33%;
     position: absolute;
     /* float: right; */
     font-family: var(--heading-font);
@@ -133,14 +129,41 @@ nav a:hover {
     position: absolute;
     bottom: 50%;
     width: 70%;
-    float: left;
     color:#FFFFFF;
 }
+
 .hero article img{
     position: absolute;
     top: 10%;
-    
-    float: right;
+    left: 66%;
     width: 30%;
 }
 
+footer{
+  float:left;
+  width: 100%;
+  background-color: var( --secondary-color)
+  /* color: var( --primary-color) */
+}
+
+footer img{
+  padding: 1rem;
+  width: 60px;
+}
+
+footer nav{
+  float:right;
+  background-color: var(--secondary-color);
+}
+
+
+
+.sociallinks {
+  position: relative;
+  float: center;
+  margin: 1rem;
+  width: 100%;
+}
+
+.sociallinks nav{
+  
