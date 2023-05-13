@@ -24,6 +24,30 @@ body {
   max-width: 9600px ;
   padding: 20px ;
 }
+.images-flex {
+  /* grid-template-columns: 20% 20% 20% 20% 20%; */
+  display: flex;
+}
+
+.images-flex figure {
+  /* grid-column: 5; */
+  flex: 1 1 20%;
+  /* border: thin var(--nav-link-color) solid; */
+  /* display: flex; */
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
+/* figcaption {
+  flex: 1 1 100%;
+  background-color: var(--accent1-color);
+  color: var(--nav-link-color);
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+} */
 
 h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
