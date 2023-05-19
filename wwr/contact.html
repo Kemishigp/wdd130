@@ -7,12 +7,12 @@
         <meta name="description" content="Webpage by Kemish Gomez includes contact info for a rafting company ">
         <link rel="stylesheet" href="styles/rafting.css">
         <title> Rafting Company|Contact Us</title>
+        <link rel="stylesheet" href="styles/rafting.css">
     </head>
 
     <body>
-        <!-- LEAVE AS IS -->
+        <!-- \LEAVE AS IS -->
             <header>
-                <!-- <p>HEADER</p> -->
                 <img src = 'images/rafting_copy.jpg' alt = 'Water Rafting Logo' width="300">
                 <nav class="navigation">
                     <a href = '#'> Home </a>
@@ -29,21 +29,32 @@
             <p>email: <a href="mailto:"> rafting@hotmail.com</a></p>
             <p>Google MAP</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7611.172171545777!2d78.38249133556492!3d17.4795142876437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9185969ec633%3A0x50c71941b7b668de!2sMalaysian%20Twp%2C%20KPHB%205th%20Phase%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%2C%20India!5e0!3m2!1sen!2sus!4v1684516038921!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <img src="images/emp1.jpeg" alt="Employee">
-            <img src="images/emp2.jpeg" alt="employee">
-            <img src="images/emp3.jpeg" alt="employee">
+            <div class="flex">
+                <figure>
+                    <img src="images/emp1.jpeg" alt="Employee">
+                    <figcaption> Kyle Smith-Lifeguard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/emp2.jpeg" alt="employee">
+                    <figcaption>Jared Bushman-Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/emp3.jpeg" alt="employee">
+                    <figcaption>Rachel Bloom-Secretary</figcaption>
+                </figure>
+            </div>
 
             <form>
             
-                <label>Please select the purpose of your message:</label>
+                <label>Send us a Message</label>
                 <p></p>
                 <textarea row="400" cols="100"></textarea>
+                <p>Please select the purpose of your message<p>
+                General Inquiry<input type="radio" name="mssg" id="mssg">
                 <p></p>
-                General Inquiry<input type="radio" name="q4" id="q4">
+                Reservation Question<input type="radio" name="mssg" id="mssg">
                 <p></p>
-                Reservation Question<input type="radio" name="q4" id="q4">
-                <p></p>
-                Website Suggestion<input type="radio" name="q4" id="q4">
+                Website Suggestion<input type="radio" name="mssg" id="mssg">
                 <!-- <p>HELLO</p> -->
                 <button type="submit">Submit Quiz</button>
             </form>
@@ -66,5 +77,5 @@
                         </a>
                 </nav>
         </footer>
-        <!-- LEAVE AS IS -->
+        <!-- \ LEAVE AS IS -->
     </body>
