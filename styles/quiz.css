@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    border-bottom: 1px solid steelblue;;
+    /* border: #000;
+    border-color: #000; */
+    color: steelblue;
+  }  
+  main {
+    max-width: 500px;
+    grid-column: 2/3;
+    margin: 1rem;
+  }
+
+  /* Class Selectors */
+  .box {
+    margin: 1rem;
+    width: 500px;
+    border: 1px solid rgba(96, 93, 255, 0.651);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #3496bf;
+    align-items: center;
+  }
+  /* Class Selectors */

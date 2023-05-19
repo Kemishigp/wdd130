@@ -12,49 +12,39 @@
   </head>
   <body>
     <main>
-        <form>
-            <!-- Q1 -->
+        <h1>QUIZ</h1>
+        <form class="box">
             <fieldset>
+            <!-- Q1 -->
                 <legend>1.</legend>
-                <label>What color would black be in Hexadecimal? <input type="text" name="q1" id="q1"></label>
+                <label>How would you close a &lt;header&gt; tag? <input type="text" name="q1" id="q1"></label>
             </fieldset>
             <!-- Q2 -->
             <fieldset>
                 <legend>2.</legend>
+                <label> Why is it important to follow proper naming/rules convetion in HTML?</label>
                 <textarea name="q2" id="q2" rows="4" cols="'50">
-                    At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
                 </textarea>
             </fieldset>
             <!-- Q3 -->
             <fieldset>
                 <legend>3.</legend>
-                <label>Full Name: <input type="text" name="fullname"></label>
-                <label>Email: <input type="email" name="useremail"></label>
+                <label for="q3">How would you initalize a class selector?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="chrome">*class</option>
+                    <option value="firefox">.class</option>
+                    <option value="safari">Class = class</option>
+                    <option value="edge">>Class</option>
+                </select>
             </fieldset>
             <!-- Q4 -->
             <fieldset>
-                <legend>Contact Information</legend>
-                <label>Full Name: <input type="text" name="fullname"></label>
-                <label>Email: <input type="email" name="useremail"></label>
+                <legend>4.</legend>
+                <label>What would be the G value for black using RGB? <input type="number" name="q4" id="q4"></label>
             </fieldset>
 
-            <fieldset>
-                <legend>Questions</legend>
-                <label for="browser">What is your favorite internet browser?</label>
-                <select id="browser" name="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="firefox">Firefox</option>
-                    <option value="safari">Safari</option>
-                    <option value="edge">Edge</option>
-                    <option value="brave">Brave</option>
-                    <option value="other">Other</option>
-                </select>
-                <label for="pet">Do you have a household pet?</label>
-          <input type="checkbox" id="pet" name="pet">
-          <label for="feedback">List the places you have lived:</label>
-          <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
-        </fieldset>
-        <button type="submit">Submit Poll</button>
+        <button type="submit">Submit Quiz</button>
         </form>
 </main>
 
