@@ -4,6 +4,8 @@ h1{
     /* border: #000;
     border-color: #000; */
     color: steelblue;
+    margin:1rem;
+    padding: 1rem;
   }  
   main {
     max-width: 500px;
