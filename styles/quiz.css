@@ -14,20 +14,24 @@ h1{
 
   fieldset {
     position: relative;
+    display: block;
     max-width: 20rem;
-    text-align: center;
+    /* text-align: center; */
     /* grid-column: 1/2;
     grid-row: 1/2; */
   }
 
   /* Class Selectors */
   .box {
+    display: block;
     margin: 1rem;
     width: 500px;
-    border: 1px solid rgba(96, 93, 255, 0.651);
+    border: 1px solid rgba(99, 93, 255, 0.651);
     padding: 1rem;
     background-color: #ddd;
     color: #3496bf;
-    align-items: center;
+    /* align-items: center; */
+    float: center;
+    text-align: center;
   }
   /* Class Selectors */
