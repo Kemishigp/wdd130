@@ -32,9 +32,10 @@ body {
 
 .flex figure {
   /* grid-column: 5; */
-  /* flex: 1 50%; */
-  border: thin var(--nav-link-color) solid;
-  /* padding: 0px; */
+  /* flex: 1 0%; */
+  /* border: thin var(--nav-link-color) solid; */
+  /* display: flex; */
+  padding: 0px;
   /* max-width: 20px; */
   margin: auto;
 }
@@ -120,7 +121,7 @@ legend{
   padding: 1rem;
 }
 label{
-  color: var(--secondary-color);
+  color: var(--accent1-color);
   padding: 1rem;
 }
 
