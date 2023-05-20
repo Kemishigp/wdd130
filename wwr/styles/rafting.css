@@ -32,10 +32,9 @@ body {
 
 .flex figure {
   /* grid-column: 5; */
-  /* flex: 1 0%; */
-  /* border: thin var(--nav-link-color) solid; */
-  /* display: flex; */
-  padding: 0px;
+  /* flex: 1 50%; */
+  border: thin var(--nav-link-color) solid;
+  /* padding: 0px; */
   /* max-width: 20px; */
   margin: auto;
 }
@@ -117,10 +116,11 @@ h1{
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
-legend, input{
+legend{
   padding: 1rem;
 }
-input{
+label{
+  color: var(--secondary-color);
   padding: 1rem;
 }
 
