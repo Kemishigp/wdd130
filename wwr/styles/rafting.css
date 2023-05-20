@@ -109,11 +109,19 @@ nav {
   right: 100%;
 
 }
-
+h1{
+  padding: 1rem;
+}
 /* CLAAF */
 
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
+}
+legend, input{
+  padding: 1rem;
+}
+input{
+  padding: 1rem;
 }
 
 nav a:hover {
@@ -164,6 +172,13 @@ nav a:hover {
     left: 66%;
     width: 30%;
 }
+.hero iframe{
+  position: absolute;
+  top: 5%;
+  width: 30%;
+  height: 90%;
+  left: 66%;
+}
 
 footer{
   float:left;
@@ -182,4 +197,18 @@ footer nav{
   /* padding: 2px; */
   float:right;
   background-color: var(--secondary-color);
+}
+label{
+  color: #f7B32B;
+}
+textarea{
+  padding: 1rem;
+  margin: 1rem;
+}
+input{
+  background-color: #2660A4;
+  text-align: center;
+  float:center;
+  left: 100%;
+  padding: 1rem;
 }
