@@ -200,7 +200,7 @@ form{
   color: var(--accent1-color);
   display: grid;
   margin: 1rem;
-  padding:1 rem;
+  padding:1rem;
   grid-template-columns: 33% 34% 33%;
   
 }
