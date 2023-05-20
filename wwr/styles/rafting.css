@@ -117,6 +117,12 @@ h1{
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
+
+form{
+  color: var(--accent1-color);
+  display: grid;
+  margin-bottom: 1rem;
+}
 legend{
   padding: 1rem;
 }
@@ -124,6 +130,7 @@ label{
   color: var(--accent1-color);
   padding: 1rem;
 }
+
 
 nav a:hover {
   color: var(--nav-hover-link-color);
@@ -200,7 +207,7 @@ footer nav{
   background-color: var(--secondary-color);
 }
 label{
-  color: #f7B32B;
+  color: var(--accent1-color);
 }
 textarea{
   padding: 1rem;
