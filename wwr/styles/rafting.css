@@ -202,20 +202,29 @@ form{
   margin: 1rem;
   padding:1 rem;
   grid-template-columns: 33% 34% 33%;
+  
 }
 textarea{
   padding: 1rem;
   margin: 1rem;
   grid-column: 1/4;
+  
 }
 input{
+  /* display: block; */
   text-align: center;
   float:center;
   left: 100%;
   padding: 1rem;
+  
 }
 legend{
   padding: 1rem;
+  grid-row: 3;
+}
+legend1{
+  padding:1rem;
+  grid-row: 5;
 }
 label{
   color: var(--accent2-color);
@@ -224,9 +233,11 @@ label{
 }
 
 button{
+  padding: 1rem;
   background-color: var(--nav-background-color);
   margin-left: 12rem;
+  margin-bottom: 1rem;
   width: 50%;
   grid-column: 3;
-  grid-row: 8;
+  grid-row: 9;
 }
