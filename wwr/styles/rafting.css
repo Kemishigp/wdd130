@@ -213,11 +213,12 @@ textarea{
 input{
   /* display: block; */
   text-align: center;
-  float:center;
+  float:right;
   left: 100%;
   padding: 1rem;
-  
 }
+
+
 legend{
   padding: 1rem;
   grid-row: 3;
