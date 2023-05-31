@@ -6,17 +6,16 @@
 
     /* https://coolors.co/f7b32b-2660a4-ffffff-5ca4a9-a40e4c */
   --primary-color: #f7B32B ;
-  --secondary-color: #2660A4;
+  --secondary-color: #181179;
   --accent1-color: #335275;
   --accent2-color: #5CA4A9;
-  --text-color: #aaa;
 
   --heading-font: Lato, serif;
   --paragraph-font: 'Lato' , serif;
 
   --nav-background-color: #5CA4A9;
   --nav-link-color: #FFFFFF;
-  --nav-hover-link-color: #5CA4A9;
+  --nav-hover-link-color: #0C00EB;
   --nav-hover-background-color: #dedede; 
 }    
 
@@ -45,11 +44,13 @@ body {
 
 figcaption {
   flex: 1 1 100%;
+  /* margin-right: rem; */
   background-color: var(--primary-color);
-  color: #000;
+  color: var(--secondary-color);
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
+  width: auto;
 }
 
 h2, h3, h4, h5, h6 {
@@ -180,9 +181,10 @@ nav a:hover {
 }
 
 footer{
+  margin-top: 1rem;
   float:left;
   width: 100%;
-  background-color: var( --secondary-color)
+  background-color: var( --accent1-color)
   /* color: var( --primary-color) */
 }
 
@@ -195,12 +197,12 @@ footer img{
 footer nav{
   /* padding: 2px; */
   float:right;
-  background-color: var(--secondary-color);
+  background-color: var(--accent1-color);
 }
 
 form{
   background-color: var(--nav-hover-background-color);
-  color: var(--accent1-color);
+  color: var(--secondary-color);
   display: grid;
   margin: 1rem;
   padding:1rem;
@@ -216,7 +218,7 @@ textarea{
 input{
   /* display: block; */
   text-align: center;
-  float:right;
+  float: center;
   left: 100%;
   padding: 1rem;
 }
@@ -250,16 +252,26 @@ button{
   display:grid;
   grid-template-columns: 50% 50%;
   margin: 1rem;
+  /* grid-column: 1/1; */
 }
 
-.grid aside {
-  background-color: var(--accent1-color);
-  grid-column-end: 0;
+.grid aside{
+  display: grid;
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-link-color);
+  /* grid-column-end: 0; */
   margin: 1rem;
+  /* grid-column: 1/1; */
+}
+.grid figure img {
+  width:90%;
+}
+.grid figure figcaption{
+  width: 90%;
 }
 .trips {
   margin: 1rem;
 
-  background-color: #f7B32B;
+  background-color: var(--primary-color);
   /* grid-column-start: 2; */
 }
