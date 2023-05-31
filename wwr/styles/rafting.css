@@ -243,3 +243,8 @@ button{
   grid-column: 3;
   grid-row: 9;
 }
+
+.news_call {
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
