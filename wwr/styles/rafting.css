@@ -134,8 +134,11 @@ nav a:hover {
 .hero {
   position: relative;
   /* float: center; */
-  margin: 1rem;
-  width: 900px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  /* margin: 1rem; */
+  width: 100%;
   border: 1px solid rgba(247, 179, 43, 0.651);
   /* padding: 2px; */
   background-color: #ddd;
@@ -148,8 +151,12 @@ nav a:hover {
   height: auto;
 }
 .hero h1{
-  right: 33%;
+  right: 39%;
+  float:right;
   position: absolute;
+  text-align: center;
+  align-items: center;
+  align-content: center;
   /* float: right; */
   font-family: var(--heading-font);
   color: var(--primary-color);
