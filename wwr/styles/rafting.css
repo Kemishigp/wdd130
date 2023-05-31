@@ -80,10 +80,6 @@ nav{
 }
 
 
-p {
-  padding: 25px;
-  font-size: larger;
-}
 
 /* CLAAF */
 nav {
@@ -159,6 +155,8 @@ nav a:hover {
 }
 
 .hero article p {
+  padding: 25px;
+  font-size: larger;
   position: absolute;
   bottom: 50%;
   width: 100%;
