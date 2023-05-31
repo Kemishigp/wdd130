@@ -135,10 +135,11 @@ nav a:hover {
 
   /* margin: 1rem; */
   width: 100%;
-  border: 1px solid rgba(247, 179, 43, 0.651);
+  border: 1px solid var(--primary-color);
   /* padding: 2px; */
-  background-color: #ddd;
-  color: #3496bf;
+  background-color: var(--nav-hover-background-color);
+  /* color: #3496bf; */
+  color: var(--nav-hover-link-color)
 }
 
 .hero img {
@@ -160,7 +161,7 @@ nav a:hover {
   position: absolute;
   bottom: 50%;
   width: 100%;
-  color:#FFFFFF;
+  color: var(--nav-link-color);
 }
 
 .hero article img{
@@ -244,7 +245,12 @@ button{
   grid-row: 9;
 }
 
-.news_call {
+.grid {
   display:grid;
   grid-template-columns: 50% 50%;
+}
+
+.grid aside {
+  background-color: var(--secondary-color);
+
 }
