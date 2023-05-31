@@ -16,7 +16,7 @@
   --nav-background-color: #5CA4A9;
   --nav-link-color: #FFFFFF;
   --nav-hover-link-color: #5CA4A9;
-  --nav-hover-background-color: #dedede; 
+  --nav-hover-background-color: #ff02b3; 
 }    
 
 body {
@@ -45,7 +45,7 @@ body {
 figcaption {
   flex: 1 1 100%;
   background-color: var(--primary-color);
-  color: #000;
+  /* color: #000; */
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
@@ -99,7 +99,7 @@ nav {
   flex: 1 1 100%;
   float: right;
   display: flex;
-  color: #000;
+  /* color: #000; */
   padding: 1rem;
   text-decoration: none;
   /* right: 100%; */
@@ -248,9 +248,16 @@ button{
 .grid {
   display:grid;
   grid-template-columns: 50% 50%;
+  margin: 1rem;
 }
 
 .grid aside {
-  background-color: var(--secondary-color);
-
+  background-color: var(--accent1-color);
+  grid-column-end: 0;
+  margin: 1rem;
+}
+.trips {
+  margin: 1rem;
+  background-color: #f7B32B;
+  /* grid-column-start: 2; */
 }
