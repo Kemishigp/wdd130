@@ -33,7 +33,6 @@ body {
 .flex figure {
   /* grid-column: 5; */
   /* flex: 1 0%; */
-  /* border: thin var(--nav-link-color) solid; */
   /* display: flex; */
   padding: 0px;
   /* max-width: 20px; */
@@ -46,7 +45,7 @@ body {
 figcaption {
   flex: 1 1 100%;
   background-color: var(--primary-color);
-  color: var(--nav-link-color);
+  color: #000;
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
@@ -103,7 +102,7 @@ nav {
   flex: 1 1 100%;
   float: right;
   display: flex;
-  color: var(--nav-link-color);
+  color: #000;
   padding: 1rem;
   text-decoration: none;
   right: 100%;
@@ -115,7 +114,7 @@ h1{
 /* CLAAF */
 
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: var(--primary-color);
 }
 
 
@@ -152,11 +151,7 @@ nav a:hover {
 }
 .hero h1{
   right: 39%;
-  float:right;
   position: absolute;
-  text-align: center;
-  align-items: center;
-  align-content: center;
   /* float: right; */
   font-family: var(--heading-font);
   color: var(--primary-color);
