@@ -9,6 +9,7 @@
   --secondary-color: #2660A4;
   --accent1-color: #335275;
   --accent2-color: #5CA4A9;
+  --text-color: #aaa;
 
   --heading-font: Lato, serif;
   --paragraph-font: 'Lato' , serif;
@@ -16,7 +17,7 @@
   --nav-background-color: #5CA4A9;
   --nav-link-color: #FFFFFF;
   --nav-hover-link-color: #5CA4A9;
-  --nav-hover-background-color: #f6ff00; 
+  --nav-hover-background-color: #dedede; 
 }    
 
 body {
@@ -45,7 +46,7 @@ body {
 figcaption {
   flex: 1 1 100%;
   background-color: var(--primary-color);
-  /* color: #000; */
+  color: #000;
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
@@ -99,7 +100,7 @@ nav {
   flex: 1 1 100%;
   float: right;
   display: flex;
-  /* color: #000; */
+  color: #000;
   padding: 1rem;
   text-decoration: none;
   /* right: 100%; */
@@ -230,7 +231,7 @@ legend1{
   grid-row: 5;
 }
 label{
-  color: var(--accent2-color);
+  color: var(--nav-hover-link-color);
   grid-column: 1/1;
   padding: 1rem;
 }
@@ -258,6 +259,7 @@ button{
 }
 .trips {
   margin: 1rem;
+
   background-color: #f7B32B;
   /* grid-column-start: 2; */
 }
