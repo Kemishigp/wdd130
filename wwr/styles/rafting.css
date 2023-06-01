@@ -266,6 +266,10 @@ button{
   margin: 1rem;
   /* grid-column: 1/1; */
 }
+.grid aside button{
+  grid-column: 1;
+  grid-row-start: 2;
+}
 .grid figure img {
   width:90%;
 }
