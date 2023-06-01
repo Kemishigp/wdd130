@@ -277,6 +277,9 @@ button{
   width: 90%;
 }
 table, td {
+  background-color: var(--nav-link-color);
+  margin-top: 1rem;
+  margin-left: 35rem;
   border: 1px solid #333;
   border-collapse: collapse;
 }
@@ -297,7 +300,13 @@ caption {
   font-variant: small-caps;
 }
 .trips{
-  /* margin-left: auto; */
-  /* margin-right: auto; */
+  margin: 1rem;
+  background-color: var(--nav-hover-background-color);
+  border: 2px solid var(--primary-color);
+
+}
+.trips button{
+  margin-top:1rem;
+  margin-left:26rem;
 
 }
